@@ -1,5 +1,5 @@
 import java.sql.*;   // Use 'Connection', 'Statement' and 'ResultSet' classes in java.sql package
- 
+ //Comments
 // JDK 1.7 and above
 public class JdbcSelectTest {   // Save as "JdbcSelectTest.java"
    public static void main(String[] args) {
@@ -34,7 +34,11 @@ public class JdbcSelectTest {   // Save as "JdbcSelectTest.java"
          System.out.println("Total number of records = " + rowCount);
  
       } catch(SQLException ex) {
-         ex.printStackTrace();
+       //Do nothing 
+       /** Edit this part, based on requested
+       **/
+       ex.printStackTrace();
+       
       }
       // Step 5: Close the resources - Done automatically by try-with-resources
    }
